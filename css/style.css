@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --primary-font-family: 'Roboto', sans-serif;
     --secondary-font-family: 'Raleway', sans-serif;
     --primary-text-color-theme-dark: #212121;
@@ -61,11 +61,11 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 
 /*=====START COMPONENTS=====*/
 
-.logo {
+/* .logo {
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
@@ -81,9 +81,9 @@ img {
 
 .logo-accent-footer {
     color: var(--text-color-theme-light);
-}
+} */
 
-.btn {
+/* .btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -102,13 +102,13 @@ img {
     transition: background-color 250ms var(--animation-timing-function);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.btn:hover,
+.btn:focus {
     background-color: var(--button-background-hover-focus);
     color: var(--text-color-theme-light);
-}
+} */
 
-.title {
+/* .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -132,7 +132,7 @@ img {
 section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 /*=====END COMPONENTS=====*/
 
@@ -269,7 +269,7 @@ section {
     background-repeat: no-repeat;
 }
 
-.main-title {
+/* .main-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -280,7 +280,7 @@ section {
     margin: 0 auto 30px auto;
 
     color: var(--text-color-theme-light);
-}
+} */
 
 /*=====END HERO=====*/
 
@@ -310,7 +310,7 @@ section {
     color: var(--primary-text-color-theme-dark);
 }
 
-.description {
+/* .description {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -318,7 +318,7 @@ section {
     width: 270px;
 
     color: var(--secondary-text-color-theme-dark);
-}
+} */
 
 .benefits-list-item {
     display: block;
@@ -385,9 +385,9 @@ section {
     background-color: var(--background-light-theme);
 }
 
-.team-title {
+/* .team-title {
     margin-bottom: 50px;
-}
+} */
 
 .employees-list {
     display: flex;
@@ -432,7 +432,7 @@ section {
     color: var(--secondary-text-color-theme-dark);
 }
 
-.social-link-list {
+/* .social-link-list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -468,15 +468,15 @@ section {
 .social-link:hover .social-link-logo,
 .social-link:focus .social-link-logo {
     fill: var(--text-color-theme-light);
-}
+} */
 
 /*=====END TEAM=====*/
 
 /*=====START CLIENTS=====*/
 
-.clients-title {
+/* .clients-title {
     margin-bottom: 50px;
-}
+} */
 
 .clients-list {
     display: flex;
@@ -741,7 +741,7 @@ section {
     color: var(--text-color-theme-light);
 }
 
-.social-link-footer {
+/* .social-link-footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -777,7 +777,7 @@ section {
 .social-link-footer:hover .social-link-logo-footer,
 .social-link-footer:focus .social-link-logo-footer {
     fill: var(--text-color-theme-light);
-}
+} */
 
 .mail-outs {
     margin: 0 auto;

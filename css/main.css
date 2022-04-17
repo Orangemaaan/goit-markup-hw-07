@@ -1,0 +1,207 @@
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --primary-text-color-theme-dark: #212121;
+  --secondary-text-color-theme-dark: #757575;
+  --text-color-theme-light: #ffffff;
+  --accent-color: #2196f3;
+  --background-dark-theme: #2f303a;
+  --background-light-theme: #f5f4fa;
+  --logo-accent-header: #000000;
+  --button-background-hover-focus: #188ce8;
+  --text-color-contact: rgba(255, 255, 255, 0.6);
+  --border-color: #ececec;
+  --clients-logo-border: #afb1b8;
+  --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+body {
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-theme-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--accent-color);
+  color: var(--text-color-theme-light);
+  cursor: pointer;
+  transition: background-color 250ms var(--animation-timing-function);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--button-background-hover-focus);
+  color: var(--text-color-theme-light);
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  width: 270px;
+  color: var(--secondary-text-color-theme-dark);
+}
+
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-accent-header {
+  color: var(--logo-accent-header);
+}
+
+.logo-accent-footer {
+  color: var(--text-color-theme-light);
+}
+
+.social-link-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: background-color 250ms var(--animation-timing-function);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-link-logo {
+  fill: var(--clients-logo-border);
+  transition: fill 250ms var(--animation-timing-function);
+}
+
+.social-link:hover .social-link-logo,
+.social-link:focus .social-link-logo {
+  fill: var(--text-color-theme-light);
+}
+
+.social-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: background-color 250ms var(--animation-timing-function);
+}
+
+.social-link-list-footer {
+  display: flex;
+  margin-top: 20px;
+  transition: background-color 250ms var(--animation-timing-function);
+}
+
+.social-list-item-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: var(--accent-color);
+}
+
+.social-link-logo-footer {
+  fill: var(--text-color-theme-light);
+  transition: fill 250ms var(--animation-timing-function);
+}
+
+.social-link-footer:hover .social-link-logo-footer,
+.social-link-footer:focus .social-link-logo-footer {
+  fill: var(--text-color-theme-light);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-text-color-theme-dark);
+}
+/*# sourceMappingURL=main.css.map */
