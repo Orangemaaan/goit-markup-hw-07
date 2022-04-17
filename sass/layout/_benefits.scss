@@ -12,10 +12,10 @@
 
 .benefits-list-item {
     display: block;
-}
 
-.benefits-list-item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .benefits-list {

@@ -9,12 +9,12 @@
 
     transition: opacity 300ms var(--animation-timing-function),
         visibility 300ms var(--animation-timing-function);
-}
 
-.backdrop.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    &.is-hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
 }
 
 .modal {
@@ -48,10 +48,12 @@
     background-color: transparent;
     padding: 0;
     cursor: pointer;
-}
 
-.modal-close-btn:hover {
-    fill: var(--accent-color);
+    transition: fill 250ms var(--animation-timing-function);
+
+    &:hover {
+        fill: var(--accent-color);
+    }
 }
 
 .modal-appeal {
@@ -80,16 +82,17 @@
 }
 
 .modal-form-field input {
+    width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 12px 10px 12px 42px;
     outline: none;
 
     transition: border-color 250ms var(--animation-timing-function);
-}
 
-.modal-form-field input:focus {
-    border-color: var(--accent-color);
+    &:focus {
+        border-color: var(--accent-color);
+    }
 }
 
 .modal-label {
@@ -106,10 +109,6 @@
     margin-bottom: 10px;
 }
 
-.contact-input {
-    width: 100%;
-}
-
 .contact-icon {
     position: absolute;
     top: 50%;
@@ -118,10 +117,10 @@
     color: var(--primary-text-color-theme-dark);
 
     transition: fill 250ms var(--animation-timing-function);
-}
 
-.contact-input:focus + .contact-icon {
-    fill: var(--accent-color);
+    .modal-form-field input:focus + & {
+        fill: var(--accent-color);
+    }
 }
 
 .comment-area {
@@ -133,17 +132,17 @@
     outline: none;
 
     transition: border-color 250ms var(--animation-timing-function);
-}
 
-.comment-area:focus {
-    border-color: var(--accent-color);
-}
+    &:focus {
+        border-color: var(--accent-color);
+    }
 
-.comment-area::placeholder {
-    line-height: 1.14;
-    letter-spacing: 0.01em;
+    &::placeholder {
+        line-height: 1.14;
+        letter-spacing: 0.01em;
 
-    color: rgba(117, 117, 117, 0.5);
+        color: rgba(117, 117, 117, 0.5);
+    }
 }
 
 .agreement-wrapper {
@@ -167,24 +166,24 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-dark);
-}
 
-.checkbox-label::before {
-    content: '';
-    display: inline-block;
-    width: 16px;
-    height: 15px;
-    border: 2px solid var(--logo-accent-header);
-    border-radius: 2px;
-    cursor: pointer;
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        border: 2px solid var(--logo-accent-header);
+        border-radius: 2px;
+        cursor: pointer;
 
-    margin-right: 9px;
-}
+        margin-right: 9px;
 
-.checkbox:checked + .checkbox-label::before {
-    border-color: transparent;
-    background-image: url(../images/icon-check.svg);
-    background-color: var(--accent-color);
-    background-repeat: no-repeat;
-    background-size: contain;
+        .checkbox:checked + & {
+            border-color: transparent;
+            background-image: url(../images/icon-check.svg);
+            background-color: var(--accent-color);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
 }

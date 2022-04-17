@@ -15,10 +15,10 @@
     cursor: pointer;
 
     transition: background-color 250ms var(--animation-timing-function);
-}
 
-.btn:hover,
-.btn:focus {
-    background-color: var(--button-background-hover-focus);
-    color: var(--text-color-theme-light);
+    &:hover,
+    :focus {
+        background-color: var(--button-background-hover-focus);
+        color: var(--text-color-theme-light);
+    }
 }
