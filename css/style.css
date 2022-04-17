@@ -138,7 +138,7 @@ section {
 
 /*=====START HEADER=====*/
 
-.header {
+/* .header {
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -245,13 +245,13 @@ section {
 .icon-header:hover,
 .icon-header:focus {
     fill: var(--accent-color);
-}
+} */
 
 /*=====END HEADER=====*/
 
 /*=====START HERO=====*/
 
-.hero {
+/* .hero {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -267,7 +267,7 @@ section {
         url(../images/hero-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 /* .main-title {
     font-weight: 900;
@@ -286,7 +286,7 @@ section {
 
 /*=====START BENEFITS=====*/
 
-.benefits-background {
+/* .benefits-background {
     display: flex;
     background-color: var(--background-light-theme);
 
@@ -308,7 +308,7 @@ section {
     margin-bottom: 10px;
 
     color: var(--primary-text-color-theme-dark);
-}
+} */
 
 /* .description {
     font-size: 14px;
@@ -320,7 +320,7 @@ section {
     color: var(--secondary-text-color-theme-dark);
 } */
 
-.benefits-list-item {
+/* .benefits-list-item {
     display: block;
 }
 
@@ -330,15 +330,15 @@ section {
 
 .benefits-list {
     display: flex;
-}
-
-.services {
-    padding-top: 0;
-}
+} */
 
 /*=====END BENEFITS======*/
 
 /*=====START SERVICES=====*/
+
+/* .services {
+    padding-top: 0;
+}
 
 .services-title {
     margin-bottom: 50px;
@@ -375,7 +375,7 @@ section {
     text-transform: uppercase;
     text-align: center;
     background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /*=====END SERVICES=====*/
 
@@ -389,7 +389,7 @@ section {
     margin-bottom: 50px;
 } */
 
-.employees-list {
+/* .employees-list {
     display: flex;
 }
 
@@ -430,7 +430,7 @@ section {
     margin-bottom: 16px;
 
     color: var(--secondary-text-color-theme-dark);
-}
+} */
 
 /* .social-link-list {
     display: flex;
@@ -478,7 +478,7 @@ section {
     margin-bottom: 50px;
 } */
 
-.clients-list {
+/* .clients-list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -530,7 +530,7 @@ section {
     fill: var(--clients-logo-border);
 
     transition: fill 250ms var(--animation-timing-function);
-}
+} */
 
 /*=====END CLIENTS=====*/
 
@@ -673,7 +673,7 @@ section {
 
 /*=====START FOOTER=====*/
 
-.footer {
+/* .footer {
     background-color: var(--background-dark-theme);
 
     padding-top: 60px;
@@ -739,7 +739,7 @@ section {
     text-transform: uppercase;
 
     color: var(--text-color-theme-light);
-}
+} */
 
 /* .social-link-footer {
     display: flex;
@@ -779,7 +779,7 @@ section {
     fill: var(--text-color-theme-light);
 } */
 
-.mail-outs {
+/* .mail-outs {
     margin: 0 auto;
 }
 
@@ -836,11 +836,11 @@ section {
 
 .icon-send {
     margin-left: 10px;
-}
+} */
 
 /*=====END FOOTER=====*/
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -1029,4 +1029,4 @@ section {
     background-color: var(--accent-color);
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
