@@ -16,7 +16,7 @@
     display: flex;
 }
 
-.nav-list-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -27,7 +27,7 @@
     margin-left: auto;
 }
 
-.contact-list > .contact-list-item:not(:last-child) {
+.contact-list > .contact-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -39,7 +39,7 @@
     margin-right: 93px;
 }
 
-.nav-list-link {
+.nav-list__link {
     position: relative;
 
     display: block;
@@ -71,11 +71,11 @@
     }
 }
 
-.nav-list-link.current {
+.nav-list__link.current {
     color: var(--accent-color);
 }
 
-.contact-list-link {
+.contact-list__link {
     display: flex;
     align-items: center;
     font-weight: 500;
